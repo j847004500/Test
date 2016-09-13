@@ -1,0 +1,24 @@
+http://maps.googleapis.com/maps/api/geocode/json?latlng=38.92,121.62&sensor=flase&
+
+
+http://maps.google.cn/maps/api/geocode/json?latlng=38.92，121.62&sensor=true
+
+
+http://maps.google.cn/maps/api/geocode/json?latlng=38.92,121.62&sensor=true&
+
+http://maps.google.cn/maps/api/geocode/json?latlng=38.92,121.62&sensor=true&
+
+http://api.map.baidu.com/telematics/v3/weather?location=大连市
+
+
+&output=json&ak=B95329fb7fdda1e32ba3e3a245193146
+
+
+1、有Android平台一年以上的应用程序开发经验，熟练掌握Android各种组件的运用和不同版本的特性，有较强的代码阅读及二次开发能力；
+2、了解Android Framework源码，熟悉流行的品牌定制ROM，掌握APK反编译技术；
+3、基础扎实，精通常用数据结构与算法,熟悉TCP/IP、HTTP；
+4、工作认真细心负责，积极进取，有团队合作和服务精神，较强的抗压能力;  具备良好的沟通和表达能力；有独立解决问题的能力；
+5、有终端WEB开发、Html5、Android开发经验者优先。
+
+
+https://git-scm.com/book/zh/v1
