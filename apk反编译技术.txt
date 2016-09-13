@@ -1,0 +1,13 @@
+三个工具：
+
+apktool：反编译布局和图片
+dex2jar-0.0.9.15：将代码编译成jar包
+jd-gui-0.3.5.windows： 使用jd-gui将jar包导出
+
+
+首先将apk放在解压的apktool文件夹下
+cmd-进入apk文件夹（cd Desktop  cd apktool）
+apktool d test.apk(你的apk名字)之后就会编译出一个文件夹
+其次，解压apk文件，找到classes.dex文件 ，cmd-进入dex2jar-。。。文件，输入dex2jar.bat   classes.dex
+编译出classes.jar文件将jd-gui-0.3.5.windows解压，用
+jd-gui打开jar（里面就是源代码）
