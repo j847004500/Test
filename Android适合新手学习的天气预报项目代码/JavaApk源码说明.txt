@@ -1,0 +1,37 @@
+天气信息界面包含了温度，日出，风力，降水概率，发布时间等信息，此外还有当天某个时间点的天气预测信息，以ListView组件呈现。两个按钮也是提供了重新选择城市以及更新天气信息的功能。 
+1. com.czy.weather.Activity包存放的是Activity类，程序严格来说也仅有“选择城市”和“天气信息”两个界面，所以说只需要建立两个Activity类。
+
+2. com.czy.weather.Adapter包存放的是关于“当天某个时间点天气预测”的类。
+
+3. com.czy.weather.DB包存放的是关于数据库SQLite的相关类，用来存储中国的地区信息，以免重复查询浪费流量。
+
+4. com.czy.weather.Model包存放的是关于省份、市、区信息的抽象类。例如city类包含的信息就有所属省份，城市名，城市ID等。
+
+5. com.czy.weather.Util包存放的是工具类，包括数据请求类、信息保存类等。
+
+6. choose_area.xml是ChooseAreaActivity类是布局文件，当中就包含一个TextView组件和一个ListView组件。
+
+7. hourly_forecast.xml，天气信息界面中关于“当天某个时间点天气预测”是用ListView实现的，该布局文件用于此。
+
+8. weather_layout.xml文件是WeatherActivityi类的布局文件，包含多个TextView和一个ListView
+
+
+开发记录http://blog.csdn.net/new_one_object/article/details/50807528
+                ╔═══════════════╗
+                ║       安卓源码服务专家       ║
+  ╔══════╣───────────────╠══════╗
+  ║            ║    http://www.javaapk.com    ║            ║
+  ║            ╚═══════════════╝            ║
+　║                                                          ║
+　║JavaApk声明：                                             ║
+  ║   1) 程序如果跑不起来需要自调，javaapk做船但不帮您扬帆。 ║
+  ║   2) 免费例子大全http://www.javaapk.com/demo不定期更新。 ║
+  ║   3) 如有版权争议欢迎随时联系javaapk。                   ║
+  ║   4) 源码仅限学习交流，切勿移作他用。                    ║
+  ║   5) 转载请保留本源码说明，赠人玫瑰，手留余香。          ║
+　║                                                          ║
+  ║           JavaApk —— 安卓源码服务专家                  ║
+  ║           联系方式 :QQ18805870  javaapk@qq.com           ║
+  ║    ╔═══════════════════════╗    ║
+  ╚══╣    安卓源码专业站 http://www.JavaApk.com     ╠══╝
+        ╚═══════════════════════╝
